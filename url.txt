@@ -1,0 +1,18 @@
+Initializer list
+Initialization is a very important language feature, the most common one is when the object is
+initialized. In traditional C++, different objects have different initialization methods, such as ordinary
+arrays, PODs Plain Old Data, ie classes without constructs, destructors, and virtual functions Or
+struct type can be initialized with, which is what we call the initialization list. For the initialization
+of the class object, you need to use the copy construct, or you need to use. These different methods
+are specific to each other and cannot be generic.
+
+I’m not a Regex guru and I don’t think you need to be one either. All you need to know is that this 
+Regex matches URLs with HTTP, with HTTPS, or without eithre. It also matches URLs that start with www or without it, 
+such as short URLs like epiloge.com and deeper routes such as epiloge.com/terms. 
+Also, it can match URLs with an @ after the initial domain such as www.epiloge.com/@axel-wittmann.
+What About Users Who Don’t Put Whitespaces Between Sentences?
+At the beginning of this article, I said there’s no perfect solution to this problem and 
+that ours works for most of our use cases. I know we aren’t alone in the question for a good, 
+if not perfect solution. If you’re a LinkedIn member, try writing a message to someone using different 
+URLs. You’ll see that their algorithm doesn’t detect all kinds of lesser-known top-level domains 
+such as www.google.nz. 
